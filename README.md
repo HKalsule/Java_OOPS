@@ -1,51 +1,77 @@
 # 🧠 Java OOPS Concepts Repository
 
-This repository is a collection of theory-based Java programs and notes focused on **Object-Oriented Programming (OOP)** concepts. 
+This repository is a collection of beginner-friendly Java programs designed to demonstrate the core concepts of **Object-Oriented Programming (OOP)**. 
 
 ---
 
-## 📚 What This Repo Covers
+## 📂 Program Descriptions
 
-### 1. 👤 Classes and Objects
+### 1. 🏛️ `JavaClass.java`
+**Concept:** Classes and Objects  
 **Description:**  
-Covers the definition and usage of classes and objects — the foundation of OOP. Includes:
-- Class structure
-- Object instantiation
-- Accessing fields and methods
+Introduces basic class creation in Java. Demonstrates how to define a class with attributes (`id`, `name`, `salary`) and methods, and how to create and use objects of that class.
 
 ---
 
-### 2. 🏛️ Inheritance
+### 2. 🆔 `GettersSetters.java`
+**Concept:** Encapsulation using Getters and Setters  
 **Description:**  
-Demonstrates how a class can inherit properties and behaviors from another class using the `extends` keyword. Topics include:
-- Single inheritance
-- Multilevel inheritance
-- Use of `super` keyword
-- Method overriding
+Demonstrates how to protect fields using `private` access and provide controlled access using `public` getter and setter methods.
 
 ---
 
-### 3. 🌀 Polymorphism
+### 3. 🧰 `EmployeeClass.java`
+**Concept:** Field Access and Setter Method with Scanner  
 **Description:**  
-Shows how a single entity can take many forms. Two types are explored:
-- **Compile-time Polymorphism (Method Overloading):** Multiple methods with the same name but different parameters.
-- **Runtime Polymorphism (Method Overriding):** Same method name and signature, but different behavior in child classes.
+Illustrates how to allow users to input and update object properties at runtime using the `Scanner` class, along with direct field access and method-based printing.
 
 ---
 
-### 4. 🔒 Encapsulation
+### 4. 🛠️ `Constructors.java`  
+**Concept:** Constructors  
 **Description:**  
-Focuses on restricting direct access to class data by:
-- Making variables `private`
-- Providing `public` getters and setters
-- Ensuring data protection and control
+Explains the use of constructors to initialize objects with default values. Introduces default (non-parameterized) constructors.
 
 ---
 
-### 5. 🌫️ Abstraction
+### 5. 🔄 `ConstructorOverloading.java`
+**Concept:** Constructor Overloading  
 **Description:**  
-Explains how abstraction hides internal details and only shows essential features. Implemented using:
-- **Abstract Classes** (`abstract` keyword)
-- **Interfaces**
+Shows how to define multiple constructors with different parameter lists to provide flexibility when creating object instances.
+
+---
+
+### 6. 🔐 `PriAccModi.java`
+**Concept:** Private Access Modifier & Validation  
+**Description:**  
+Uses `private` fields to implement encapsulation. Includes logic to validate and compare the calculated area and perimeter of a circle with user-provided values.
+
+---
+
+### 7. 📏 `RectangleClass.java`
+**Concept:** Area and Perimeter Calculation  
+**Description:**  
+Implements a simple class for a rectangle with two fields (`length`, `breadth`) and methods to calculate and return area and perimeter.
+
+---
+
+### 8. ⬛ `Square.java`
+**Concept:** Square Class with Calculations  
+**Description:**  
+Defines a class to calculate the area and perimeter of a square using basic formulas with one attribute (`side`).
+
+---
+
+
+---
+
+## 🧩 Concepts Covered
+
+- ✅ Classes and Objects
+- ✅ Encapsulation (Getters and Setters)
+- ✅ Access Modifiers (`private`, `public`)
+- ✅ Constructors (Default and Parameterized)
+- ✅ Constructor Overloading
+- ✅ Simple object-based calculations
 
 ---
