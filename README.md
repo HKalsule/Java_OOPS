@@ -1,6 +1,6 @@
 # 🧠 Java OOPS Concepts Repository
 
-This repository is a collection of beginner-friendly Java programs designed to demonstrate the core concepts of **Object-Oriented Programming (OOP)**. 
+This repository is a collection of beginner-friendly Java programs designed to demonstrate the core concepts of **Object-Oriented Programming (OOP)**.
 
 ---
 
@@ -62,16 +62,47 @@ Defines a class to calculate the area and perimeter of a square using basic form
 
 ---
 
+### 9. 👨‍👦 `Inheritance.java`
+**Concept:** Inheritance  
+**Description:**  
+Demonstrates single inheritance where a child class `age` inherits from a parent class `name`. Also includes usage of inherited methods and fields.
+
+---
+
+### 10. 🏗️ `ConstructorsInInheritance.java`
+**Concept:** Constructor Chaining in Inheritance  
+**Description:**  
+Shows how constructors from base, derived, and child classes are called in hierarchical inheritance. Also demonstrates the use of `super()` to invoke a specific superclass constructor.
+
+---
+
+### 11. 🧪 `prac9.java`
+**Concept:** Real-World Class with Multiple Methods  
+**Description:**  
+Implements a `Cylinder` class with encapsulated radius and height. Includes methods to calculate and display:
+- Perimeter of base
+- Surface area
+- Volume
+
+---
+
+### 12. 🔁 `MethodOverriding.java`
+**Concept:** Method Overriding  
+**Description:**  
+Illustrates runtime polymorphism through method overriding. Class `B` overrides a method from its parent class `A` while adding an extra method of its own.
 
 ---
 
 ## 🧩 Concepts Covered
 
-- ✅ Classes and Objects
-- ✅ Encapsulation (Getters and Setters)
-- ✅ Access Modifiers (`private`, `public`)
-- ✅ Constructors (Default and Parameterized)
-- ✅ Constructor Overloading
-- ✅ Simple object-based calculations
+- ✅ Classes and Objects  
+- ✅ Encapsulation (Getters and Setters)  
+- ✅ Access Modifiers (`private`, `public`)  
+- ✅ Constructors (Default and Parameterized)  
+- ✅ Constructor Overloading  
+- ✅ Inheritance and `super()`  
+- ✅ Method Overriding (Runtime Polymorphism)  
+- ✅ Real-world object modeling (e.g., Cylinder)  
+- ✅ Simple object-based calculations  
 
 ---
