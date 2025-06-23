@@ -93,6 +93,20 @@ Illustrates runtime polymorphism through method overriding. Class `B` overrides 
 
 ---
 
+### 13. 🔀 `DynamicMethodDispatch.java`
+**Concept:** Dynamic Method Dispatch / Runtime Polymorphism  
+**Description:**  
+Demonstrates how method calls are resolved at runtime using a superclass reference pointing to a subclass object. Shows method overriding behavior and limitations of reference type.
+
+---
+
+### 14. 🧱 `AbstractClassAnsAbstractMethod.java`
+**Concept:** Abstract Classes and Abstract Methods  
+**Description:**  
+Explores the concept of abstraction in Java. Shows how abstract classes and methods work, and how subclasses must implement abstract methods unless they are abstract too. Also covers constructor behavior in abstract class hierarchies.
+
+---
+
 ## 🧩 Concepts Covered
 
 - ✅ Classes and Objects  
@@ -102,6 +116,8 @@ Illustrates runtime polymorphism through method overriding. Class `B` overrides 
 - ✅ Constructor Overloading  
 - ✅ Inheritance and `super()`  
 - ✅ Method Overriding (Runtime Polymorphism)  
+- ✅ Dynamic Method Dispatch  
+- ✅ Abstract Classes and Abstract Methods  
 - ✅ Real-world object modeling (e.g., Cylinder)  
 - ✅ Simple object-based calculations  
 
