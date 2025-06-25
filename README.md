@@ -8,102 +8,109 @@ This repository is a collection of beginner-friendly Java programs designed to d
 
 ### 1. 🏛️ `JavaClass.java`
 **Concept:** Classes and Objects  
-**Description:**  
-Introduces basic class creation in Java. Demonstrates how to define a class with attributes (`id`, `name`, `salary`) and methods, and how to create and use objects of that class.
+Defines basic class structure with attributes (`id`, `name`, `salary`) and methods. Shows object creation and method invocation.
 
 ---
 
 ### 2. 🆔 `GettersSetters.java`
-**Concept:** Encapsulation using Getters and Setters  
-**Description:**  
-Demonstrates how to protect fields using `private` access and provide controlled access using `public` getter and setter methods.
+**Concept:** Encapsulation  
+Uses `private` fields with `public` getters and setters to protect and access object data.
 
 ---
 
 ### 3. 🧰 `EmployeeClass.java`
-**Concept:** Field Access and Setter Method with Scanner  
-**Description:**  
-Illustrates how to allow users to input and update object properties at runtime using the `Scanner` class, along with direct field access and method-based printing.
+**Concept:** Field Access with User Input  
+Allows user interaction using `Scanner` to modify object fields and display results.
 
 ---
 
 ### 4. 🛠️ `Constructors.java`  
-**Concept:** Constructors  
-**Description:**  
-Explains the use of constructors to initialize objects with default values. Introduces default (non-parameterized) constructors.
+**Concept:** Default Constructors  
+Initializes objects using constructors without parameters.
 
 ---
 
 ### 5. 🔄 `ConstructorOverloading.java`
 **Concept:** Constructor Overloading  
-**Description:**  
-Shows how to define multiple constructors with different parameter lists to provide flexibility when creating object instances.
+Provides multiple constructors to initialize an object in different ways.
 
 ---
 
 ### 6. 🔐 `PriAccModi.java`
-**Concept:** Private Access Modifier & Validation  
-**Description:**  
-Uses `private` fields to implement encapsulation. Includes logic to validate and compare the calculated area and perimeter of a circle with user-provided values.
+**Concept:** Access Modifiers and Encapsulation  
+Implements a `Circle` class with `private` fields and validation methods to check area and perimeter.
 
 ---
 
 ### 7. 📏 `RectangleClass.java`
 **Concept:** Area and Perimeter Calculation  
-**Description:**  
-Implements a simple class for a rectangle with two fields (`length`, `breadth`) and methods to calculate and return area and perimeter.
+Calculates area and perimeter for a rectangle using object properties.
 
 ---
 
 ### 8. ⬛ `Square.java`
-**Concept:** Square Class with Calculations  
-**Description:**  
-Defines a class to calculate the area and perimeter of a square using basic formulas with one attribute (`side`).
+**Concept:** Square Class  
+Calculates area and perimeter for a square using a single field (`side`).
 
 ---
 
 ### 9. 👨‍👦 `Inheritance.java`
 **Concept:** Inheritance  
-**Description:**  
-Demonstrates single inheritance where a child class `age` inherits from a parent class `name`. Also includes usage of inherited methods and fields.
+Demonstrates simple inheritance between `name` and `age` classes, showcasing inherited methods.
 
 ---
 
 ### 10. 🏗️ `ConstructorsInInheritance.java`
-**Concept:** Constructor Chaining in Inheritance  
-**Description:**  
-Shows how constructors from base, derived, and child classes are called in hierarchical inheritance. Also demonstrates the use of `super()` to invoke a specific superclass constructor.
+**Concept:** Constructor Chaining  
+Illustrates how constructors are called in a class hierarchy using `super()`.
 
 ---
 
 ### 11. 🧪 `Cylinder.java`
-**Concept:** Real-World Class with Multiple Methods  
-**Description:**  
-Implements a `Cylinder` class with encapsulated radius and height. Includes methods to calculate and display:
-- Perimeter of base
-- Surface area
-- Volume
+**Concept:** Encapsulation with Calculations  
+Implements `Cylinder` class with methods to calculate surface area, volume, and base perimeter.
 
 ---
 
 ### 12. 🔁 `MethodOverriding.java`
 **Concept:** Method Overriding  
-**Description:**  
-Illustrates runtime polymorphism through method overriding. Class `B` overrides a method from its parent class `A` while adding an extra method of its own.
+Shows how subclass `B` overrides a method from superclass `A`, enabling runtime polymorphism.
 
 ---
 
 ### 13. 🔀 `DynamicMethodDispatch.java`
-**Concept:** Dynamic Method Dispatch / Runtime Polymorphism  
-**Description:**  
-Demonstrates how method calls are resolved at runtime using a superclass reference pointing to a subclass object. Shows method overriding behavior and limitations of reference type.
+**Concept:** Runtime Polymorphism  
+Demonstrates dynamic method dispatch using a `Phone` reference pointing to a `SmartPhone` object.
 
 ---
 
 ### 14. 🧱 `AbstractClassAnsAbstractMethod.java`
-**Concept:** Abstract Classes and Abstract Methods  
-**Description:**  
-Explores the concept of abstraction in Java. Shows how abstract classes and methods work, and how subclasses must implement abstract methods unless they are abstract too. Also covers constructor behavior in abstract class hierarchies.
+**Concept:** Abstract Classes and Methods  
+Explains abstraction with abstract classes, showing required method implementation in child classes.
+
+---
+
+### 15. 🧬 `Polymorphism.java`
+**Concept:** Polymorphism via Upcasting  
+Creates a `Cat` object using a `Dog` reference to show limited access and runtime binding of overridden methods.
+
+---
+
+### 16. 🧩 `InterfacePolymorphism.java`
+**Concept:** Interface-based Polymorphism  
+Implements the `Animal` interface in `Dog` and `Cat` classes to show polymorphism using interfaces.
+
+---
+
+### 17. 🔗 `InheritanceInInterfaces.java`
+**Concept:** Interface Inheritance  
+Demonstrates inheritance between interfaces and implementation in a class with all required methods.
+
+---
+
+### 18. 🔒 `AccessModifiers.java`
+**Concept:** Access Modifiers  
+Explains visibility of variables (`public`, `protected`, default, `private`) from inside and outside the class.
 
 ---
 
@@ -111,14 +118,16 @@ Explores the concept of abstraction in Java. Shows how abstract classes and meth
 
 - ✅ Classes and Objects  
 - ✅ Encapsulation (Getters and Setters)  
-- ✅ Access Modifiers (`private`, `public`)  
+- ✅ Access Modifiers (`private`, `public`, `protected`, default)  
 - ✅ Constructors (Default and Parameterized)  
 - ✅ Constructor Overloading  
 - ✅ Inheritance and `super()`  
-- ✅ Method Overriding (Runtime Polymorphism)  
+- ✅ Method Overriding  
+- ✅ Polymorphism (Upcasting & Interfaces)  
 - ✅ Dynamic Method Dispatch  
-- ✅ Abstract Classes and Abstract Methods  
-- ✅ Real-world object modeling (e.g., Cylinder)  
-- ✅ Simple object-based calculations  
+- ✅ Abstract Classes and Methods  
+- ✅ Interface Inheritance and Implementation  
+- ✅ Real-world Modeling (e.g., Cylinder)  
+- ✅ Basic Calculations Using OOP
 
 ---
