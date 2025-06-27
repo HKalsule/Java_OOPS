@@ -114,20 +114,27 @@ Explains visibility of variables (`public`, `protected`, default, `private`) fro
 
 ---
 
-## 🧩 Concepts Covered
+### 19. 🧵 `Threading.java`  
+**Concept:** Multithreading using `Thread` class  
+**Description:**  
+This program demonstrates basic **multithreading** in Java by extending the `Thread` class.
 
-- ✅ Classes and Objects  
-- ✅ Encapsulation (Getters and Setters)  
-- ✅ Access Modifiers (`private`, `public`, `protected`, default)  
-- ✅ Constructors (Default and Parameterized)  
-- ✅ Constructor Overloading  
-- ✅ Inheritance and `super()`  
-- ✅ Method Overriding  
-- ✅ Polymorphism (Upcasting & Interfaces)  
-- ✅ Dynamic Method Dispatch  
-- ✅ Abstract Classes and Methods  
-- ✅ Interface Inheritance and Implementation  
-- ✅ Real-world Modeling (e.g., Cylinder)  
-- ✅ Basic Calculations Using OOP
+Two classes, `MyThread1` and `MyThread2`, override the `run()` method and print messages in a loop. When `start()` is called on each thread from the `main()` method, they run **concurrently**, showing interleaved outputs.
 
 ---
+
+### ✅ Concepts Covered (Updated):
+- Classes and Objects  
+- Encapsulation  
+- Access Modifiers (`private`, `public`, etc.)  
+- Constructors & Overloading  
+- Inheritance & `super()`  
+- Method Overriding  
+- Polymorphism (Upcasting & Interfaces)  
+- Abstract Classes & Methods  
+- Interface Inheritance  
+- Real-World Modeling  
+- Multithreading using `Thread` class
+
+---
+
